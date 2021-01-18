@@ -1,5 +1,5 @@
 #!/bin/bash
 
-cd /opt/gen_logs
+cd /opt/generate-streams
 lib/genhttplogs.py > logs/access.log &
 exit 0
